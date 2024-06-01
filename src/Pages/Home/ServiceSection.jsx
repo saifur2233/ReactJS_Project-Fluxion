@@ -26,7 +26,7 @@ const ServiceSection = () => {
                     </div>
                     <div className="pr-12">
                         <Link to={"/services"}>
-                            <button className="btn btn-primary">See All Services</button>
+                            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-md btn-primary">See All Services</button>
                         </Link>
                     </div>
                 </div>

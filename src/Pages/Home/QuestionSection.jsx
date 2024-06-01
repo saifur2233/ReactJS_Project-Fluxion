@@ -33,18 +33,16 @@ const QuestionSection = () => {
     };
     return (
         <div className="hero">
-            <div className="hero-content text-center">
-                <div className="py-12">
-                    <h1 className="text-5xl font-bold">
-                        Have Any Questions? Let's Answer Them
-                    </h1>
-                    <p className="py-6">
-                        Oitech empowers you to design stunning and sophisticated websites
-                        that align with the unique needs of your business.
-                    </p>
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <img src="https://i.ibb.co/zsGTNtW/3.png" className="max-w-sm rounded-lg" />
+                <div>
+                    <p className="text-primary text-xl font-bold">Question</p>
+                    <h1 className="text-5xl font-bold">Have Any Questions ?</h1>
+                    <p className="py-6 pr-10">Oitech empowers you to design stunning and sophisticated websites
+                        that align with the unique needs of your business.</p>
                     <form onSubmit={handleSendMessage}>
-                        <div className="flex gap-4">
-                            <div className="form-control w-1/2">
+                        <div className="flex gap-2">
+                            <div className="form-control">
                                 <label className="label">
                                     <span className="label-text text-primary font-bold">
                                         Name <strong className="text-error">*</strong>
@@ -54,10 +52,10 @@ const QuestionSection = () => {
                                     type="text"
                                     name="name"
                                     required
-                                    className="input input-bordered border-primary"
+                                    className="input input-bordered border-primary input-xs sm:input-sm md:input-md lg:input-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                                 />
                             </div>
-                            <div className="form-control w-1/2">
+                            <div className="form-control">
                                 <label className="label">
                                     <span className="label-text font-bold text-primary">
                                         Email <strong className="text-error">*</strong>
@@ -67,7 +65,7 @@ const QuestionSection = () => {
                                     type="email"
                                     name="email"
                                     required
-                                    className="input input-bordered border-primary"
+                                    className="input input-bordered border-primary input-xs sm:input-sm md:input-md lg:input-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                                 />
                             </div>
                         </div>
@@ -81,10 +79,10 @@ const QuestionSection = () => {
                                 type="text"
                                 name="subject"
                                 required
-                                className="input input-bordered border-primary"
+                                className="input input-bordered border-primary input-xs sm:input-sm md:input-md lg:input-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                             />
                         </div>
-                        <div className="form-control">
+                        <div className="form-control ">
                             <label className="label">
                                 <span className="label-text text-primary font-bold">
                                     Message <strong className="text-error">*</strong>
@@ -94,12 +92,12 @@ const QuestionSection = () => {
                             <textarea
                                 required
                                 name="message"
-                                className="textarea textarea-bordered border-primary textarea-lg w-full"
+                                className="textarea textarea-bordered border-primary textarea-xs sm:textarea-sm md:textarea-md lg:textarea-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                             ></textarea>
                         </div>
-                        <button className="my-6 btn btn-wide btn-primary">
-                            Send Your Message
-                        </button>
+                        <div className="form-control my-6">
+                            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-wide btn-primary"> Send Your Message</button>
+                        </div>
                     </form>
                 </div>
             </div>

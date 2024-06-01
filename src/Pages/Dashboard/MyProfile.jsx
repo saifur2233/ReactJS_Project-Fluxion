@@ -7,7 +7,7 @@ const MyProfile = () => {
         <div className="py-12">
             <h1 className="font-bold text-5xl text-center">Profile</h1>
             <div className="flex justify-center">
-                <div className="card w-1/2 bg-base-100 shadow-xl px-12">
+                <div className="card w-full bg-base-100 shadow-xl px-12">
                     <figure className="px-10 pt-10">
                         <div className="avatar online ">
                             <div className="w-24 rounded-full">

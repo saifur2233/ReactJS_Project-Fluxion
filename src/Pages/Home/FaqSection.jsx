@@ -22,7 +22,7 @@ const FaqSection = () => {
                             What kind of web development services do you offer?
                         </div>
                         <div className="collapse-content">
-                            <p className="text-white">
+                            <p className="text-success">
                                 The web development services offered by a company may vary, but
                                 generally include website design, development, and maintenance.
                             </p>
@@ -36,7 +36,7 @@ const FaqSection = () => {
                             How long does it take to complete a web development project?
                         </div>
                         <div className="collapse-content">
-                            <p className="text-white">
+                            <p className="text-success">
                                 The time it takes to complete a web development project depends
                                 on the scope and complexity of the project.
                             </p>
@@ -50,7 +50,7 @@ const FaqSection = () => {
                             How do you ensure that the website you create is secure?
                         </div>
                         <div className="collapse-content">
-                            <p className="text-white">
+                            <p className="text-success">
                                 To ensure website security, a company may implement various
                                 measures such as regular updates, firewalls, and secure server
                                 hosting.
@@ -65,7 +65,7 @@ const FaqSection = () => {
                             What kind of IT consulting services do you offer?
                         </div>
                         <div className="collapse-content">
-                            <p className="text-white">
+                            <p className="text-success">
                                 IT consulting services may include technology strategy, project
                                 management, infrastructure planning, and IT security solutions.
                             </p>

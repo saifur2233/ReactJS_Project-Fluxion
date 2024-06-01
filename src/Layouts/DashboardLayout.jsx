@@ -6,18 +6,16 @@ const DashboardLayout = () => {
     return (
         <div>
             <Header></Header>
-            <div className="drawer drawer-mobile">
-                <input
-                    id="dashboard-drawer"
-                    type="checkbox"
-                    className="drawer-toggle"
-                />
-                <div className="drawer-content">
+            <div className="drawer lg:drawer-open">
+                <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content flex flex-col items-center justify-center">
+                    {/* Page content here */}
+                    <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
                     <Outlet></Outlet>
                 </div>
                 <div className="drawer-side">
-                    <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 bg-base-200 text-base-content">
+                    <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
+                    <ul className="menu p-4 w-60 min-h-full bg-base-200 text-base-content">
                         <li>
                             <Link to="/dashboard">My Profile</Link>
                         </li>
@@ -34,8 +32,10 @@ const DashboardLayout = () => {
                             <Link to="/dashboard/services">All Services</Link>
                         </li>
                     </ul>
+
                 </div>
             </div>
+
         </div>
     );
 };

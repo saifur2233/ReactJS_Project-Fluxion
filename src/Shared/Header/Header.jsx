@@ -29,51 +29,51 @@ const Header = () => {
     const menuItems = (
         <React.Fragment>
             <li>
-                <Link className="font-bold text-white" to="/">
+                <Link className="font-bold text-primary" to="/">
                     Home
                 </Link>
             </li>
             <li>
-                <Link className="font-bold text-white" to="/services">
+                <Link className="font-bold text-primary" to="/services">
                     Services
                 </Link>
             </li>
             <li>
-                <Link className="font-bold text-white" to="/about">
+                <Link className="font-bold text-primary" to="/about">
                     About
                 </Link>
             </li>
             <li>
-                <Link className="font-bold text-white" to="/portfolio">
+                <Link className="font-bold text-primary" to="/portfolio">
                     Portfolio
                 </Link>
             </li>
             <li>
-                <Link className="font-bold text-white" to="/team">
+                <Link className="font-bold text-primary" to="/team">
                     Team
                 </Link>
             </li>
             <li>
-                <Link className="font-bold text-white" to="/contact">
+                <Link className="font-bold text-primary" to="/contact">
                     Contact
                 </Link>
             </li>
             {user?.uid ? (
                 <>
                     <li>
-                        <Link to={"/dashboard"} className="font-bold text-white">
+                        <Link to={"/dashboard"} className="font-bold text-primary">
                             {user?.email.slice(0, 10)}
                         </Link>
                     </li>
                     <li>
-                        <Link className="font-bold text-white" onClick={logout}>
+                        <Link className="font-bold text-primary" onClick={logout}>
                             Logout
                         </Link>
                     </li>
                 </>
             ) : (
                 <li>
-                    <Link className="font-bold text-white" to="/admin/login">
+                    <Link className="font-bold text-primary" to="/admin/login">
                         Login
                     </Link>
                 </li>

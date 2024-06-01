@@ -14,7 +14,7 @@ const CompareServiceSection = () => {
                         Comparison of services as per the features and services provided.
                     </p>
                     <div className="py-4 grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaDesktop s size={"10em"} className="p-3"></FaDesktop>
                             <div className="card-body">
                                 <h2 className="card-title">Easy to Customize</h2>
@@ -36,7 +36,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaDesktop s size={"10em"} className="p-3"></FaDesktop>
                             <div className="card-body">
                                 <h2 className="card-title">Easy to Customize</h2>
@@ -55,7 +55,7 @@ const CompareServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaMagic s size={"10em"} className="p-3"></FaMagic>
                             <div className="card-body">
                                 <h2 className="card-title">Unique Design</h2>
@@ -78,7 +78,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaMagic s size={"10em"} className="p-3"></FaMagic>
                             <div className="card-body">
                                 <h2 className="card-title">Unique Design</h2>
@@ -98,7 +98,7 @@ const CompareServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaRegClone s size={"10em"} className="p-3"></FaRegClone>
                             <div className="card-body">
                                 <h2 className="card-title">Multipurpose layout</h2>
@@ -121,7 +121,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
                             <FaRegClone s size={"10em"} className="p-3"></FaRegClone>
                             <div className="card-body">
                                 <h2 className="card-title">Multipurpose layout</h2>
