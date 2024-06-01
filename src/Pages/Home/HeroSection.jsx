@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HeroSection = () => {
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 300,
+        });
+    }, [])
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse px-0 lg:px-16">
-                <img
+                <img data-aos="fade-left"
                     src="https://i.ibb.co/LPRFtp1/illustration-1.png"
                     className="max-w-md rounded-lg"
                 />
-                <div>
+                <div data-aos="fade-right">
                     <p className="font-bold text-primary">IT SOLUTIONS</p>
                     <h1 className="text-5xl font-bold">
                         Providing The Best Services & IT Solutions
