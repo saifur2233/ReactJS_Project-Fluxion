@@ -9,15 +9,15 @@ import {
 const About = () => {
     return (
         <>
-            <div className="hero min-h-screen ">
-                <div className="hero-content flex-col lg:flex-row-reverse lg:px-16">
+            <div className="hero min-h-screen py-20">
+                <div className="hero-content flex-col py-10 lg:flex-row-reverse lg:px-16">
                     <img
                         src="https://i.ibb.co/M7xDBRy/about.png"
-                        className="max-w-md rounded-lg"
+                        className="sm:max-w-sm md:max-w-md rounded-lg"
                     />
                     <div>
                         <p className="font-bold text-primary">ABOUT</p>
-                        <h1 className="text-5xl font-bold">
+                        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
                             WE ARE BUILDING SOFTWARE TO HELP
                         </h1>
                         <p className="py-6">
@@ -92,11 +92,11 @@ const About = () => {
                     <img
                         src="https://i.ibb.co/2g3mYfK/choose.png"
                         alt="choose"
-                        className="max-w-md rounded-lg "
+                        className="sm:max-w-sm md:max-w-md rounded-lg "
                     />
                     <div className="px-6">
                         <p className="font-bold text-primary">ABOUT</p>
-                        <h1 className="text-5xl font-bold">
+                        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black ">
                             WE ARE BUILDING SOFTWARE TO HELP
                         </h1>
                         <p className="py-6 pr-10 text-justify">

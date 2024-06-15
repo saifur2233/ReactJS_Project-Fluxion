@@ -11,16 +11,53 @@ const HeroSection = () => {
             delay: 300,
         });
     }, [])
+
+    // const words = ["Providing The Best Services & IT Solutions..."];
+    // let i = 0;
+    // let j = 0;
+    // let currentWord = "";
+    // let isDeleting = false;
+
+    // function type() {
+    //     currentWord = words[i];
+    //     if (isDeleting) {
+    //         document.getElementById("typewriter").textContent = currentWord.substring(0, j - 1);
+    //         j--;
+    //         if (j == 0) {
+    //             isDeleting = false;
+    //             i++;
+    //             if (i == words.length) {
+    //                 i = 0;
+    //             }
+    //         }
+    //     } else {
+    //         document.getElementById("typewriter").textContent = currentWord.substring(0, j + 1);
+    //         j++;
+    //         if (j == currentWord.length) {
+    //             isDeleting = true;
+    //         }
+    //     }
+    //     setTimeout(type, 100);
+    // }
+
+    // useEffect(() => {
+    //     type();
+    // })
+
     return (
-        <div className="hero min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse px-0 lg:px-16">
-                <img data-aos="fade-left"
+        <div className="hero min-h-screen py-12">
+            <div className="hero-content flex-col lg:flex-row-reverse lg:px-16">
+                {/* <img loading="lazy"
                     src="https://i.ibb.co/LPRFtp1/illustration-1.png"
-                    className="max-w-md rounded-lg"
-                />
-                <div data-aos="fade-right">
+                    className="sm:max-w-sm md:max-w-md rounded-lg hover:scale-110"
+                /> */}
+                <div class="grid grid-cols-2 gap-4 mt-8">
+                    <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
+                    <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+                </div>
+                <div>
                     <p className="font-bold text-primary">IT SOLUTIONS</p>
-                    <h1 className="text-5xl font-bold">
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
                         Providing The Best Services & IT Solutions
                     </h1>
                     <p className="py-6">

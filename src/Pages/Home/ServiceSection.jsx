@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     FaLaptopCode,
     FaMobileAlt,
@@ -8,15 +8,26 @@ import {
     FaSearchengin,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServiceSection = () => {
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 300,
+        });
+    }, [])
+
     return (
         <div className="pb-12">
             <div className="hero">
                 <div className="hero-content flex flex-col lg:flex-row lg:px-16">
                     <div>
                         <p className="font-bold text-primary">SERVICES</p>
-                        <h1 className="text-5xl font-bold">Services We Offer</h1>
+                        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Services We Offer</h1>
                         <p className="py-6 w-3/4">
                             With Oitech you can create beautiful and elegant websites that
                             suits your business. Also, Oitech makes it possible to design
@@ -32,7 +43,7 @@ const ServiceSection = () => {
                 </div>
             </div>
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:px-16">
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaLaptopCode size={"2em"}></FaLaptopCode>
                         <h2 className="card-title text-2xl font-bold">Web Development</h2>
@@ -47,7 +58,7 @@ const ServiceSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaMobileAlt size={"2em"}></FaMobileAlt>
                         <h2 className="card-title text-2xl font-bold">Apps Development</h2>
@@ -62,7 +73,7 @@ const ServiceSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaDesktop size={"2em"}></FaDesktop>
                         <h2 className="card-title text-2xl font-bold">IT Consulting</h2>
@@ -79,7 +90,7 @@ const ServiceSection = () => {
                     </div>
                 </div>
 
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaLaptopMedical size={"2em"}></FaLaptopMedical>
                         <h2 className="card-title text-2xl font-bold">
@@ -96,7 +107,7 @@ const ServiceSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaPager size={"2em"}></FaPager>
                         <h2 className="card-title text-2xl font-bold">Digital Marketing</h2>
@@ -112,7 +123,7 @@ const ServiceSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
+                <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white" data-aos="flip-left">
                     <div className="card-body">
                         <FaSearchengin size={"2em"}></FaSearchengin>
                         <h2 className="card-title text-2xl font-bold">Data Analysis</h2>

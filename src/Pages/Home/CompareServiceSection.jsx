@@ -9,12 +9,12 @@ const CompareServiceSection = () => {
         >
             <div className="hero-content text-center">
                 <div className="">
-                    <h1 className="text-5xl font-bold">Compare Services</h1>
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Compare Services</h1>
                     <p className="py-6">
                         Comparison of services as per the features and services provided.
                     </p>
                     <div className="py-4 grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaDesktop s size={"10em"} className="p-3"></FaDesktop>
                             <div className="card-body">
                                 <h2 className="card-title">Easy to Customize</h2>
@@ -36,7 +36,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaDesktop s size={"10em"} className="p-3"></FaDesktop>
                             <div className="card-body">
                                 <h2 className="card-title">Easy to Customize</h2>
@@ -55,7 +55,7 @@ const CompareServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaMagic s size={"10em"} className="p-3"></FaMagic>
                             <div className="card-body">
                                 <h2 className="card-title">Unique Design</h2>
@@ -78,7 +78,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaMagic s size={"10em"} className="p-3"></FaMagic>
                             <div className="card-body">
                                 <h2 className="card-title">Unique Design</h2>
@@ -98,7 +98,7 @@ const CompareServiceSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaRegClone s size={"10em"} className="p-3"></FaRegClone>
                             <div className="card-body">
                                 <h2 className="card-title">Multipurpose layout</h2>
@@ -121,7 +121,7 @@ const CompareServiceSection = () => {
                         <div className="flex items-center justify-center">
                             <p className="font-bold text-5xl">V/S</p>
                         </div>
-                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white">
+                        <div className="card card-side shadow-2xl hover:bg-primary hover:text-white hover:scale-110">
                             <FaRegClone s size={"10em"} className="p-3"></FaRegClone>
                             <div className="card-body">
                                 <h2 className="card-title">Multipurpose layout</h2>

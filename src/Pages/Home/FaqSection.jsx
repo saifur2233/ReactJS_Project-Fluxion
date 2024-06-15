@@ -10,7 +10,7 @@ const FaqSection = () => {
                 />
                 <div>
                     <p className="text-primary text-xl font-bold">FAQ</p>
-                    <h1 className="text-5xl font-bold pb-6">
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black pb-6">
                         Frequently Asked Questions
                     </h1>
 

@@ -34,8 +34,8 @@ const Contact = () => {
             });
     };
     return (
-        <div className="min-h-screen py-12">
-            <h1 className="text-5xl font-bold text-center">
+        <div className="min-h-screen py-20">
+            <h1 className="pt-10 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black text-center">
                 Our Offices Around The World
             </h1>
             <div className="hero">
@@ -159,7 +159,7 @@ const Contact = () => {
             <div className="hero">
                 <div className="hero-content text-center">
                     <div className="py-12">
-                        <h1 className="text-5xl font-bold">Get In Touch</h1>
+                        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Get In Touch</h1>
                         <p className="py-6 px-20">
                             Getting in touch with Oitech would involve reaching out to them
                             through one or more of their contact channels, such as their
@@ -169,33 +169,31 @@ const Contact = () => {
                             onSubmit={handleSendMessage}
                             className="sm:mx-w-sm md:mx-w-md lg:px-20"
                         >
-                            <div className="flex gap-4">
-                                <div className="form-control w-1/2">
-                                    <label className="label">
-                                        <span className="label-text text-primary font-bold">
-                                            Name <strong className="text-error">*</strong>
-                                        </span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        required
-                                        className="input input-bordered border-primary"
-                                    />
-                                </div>
-                                <div className="form-control w-1/2">
-                                    <label className="label">
-                                        <span className="label-text font-bold text-primary">
-                                            Email <strong className="text-error">*</strong>
-                                        </span>
-                                    </label>
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        required
-                                        className="input input-bordered border-primary"
-                                    />
-                                </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-primary font-bold">
+                                        Name <strong className="text-error">*</strong>
+                                    </span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    required
+                                    className="input input-bordered border-primary input-xs sm:input-sm md:input-md w-full"
+                                />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text font-bold text-primary">
+                                        Email <strong className="text-error">*</strong>
+                                    </span>
+                                </label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    required
+                                    className="input input-bordered border-primary input-xs sm:input-sm md:input-md w-full"
+                                />
                             </div>
                             <div className="form-control">
                                 <label className="label">
@@ -207,7 +205,7 @@ const Contact = () => {
                                     type="text"
                                     name="subject"
                                     required
-                                    className="input input-bordered border-primary"
+                                    className="input input-bordered border-primary input-xs sm:input-sm md:input-md w-full"
                                 />
                             </div>
                             <div className="form-control">
@@ -233,7 +231,7 @@ const Contact = () => {
             <div className="hero">
                 <div className="hero-content text-center">
                     <div className="">
-                        <h1 className="text-5xl font-bold">Google Maps</h1>
+                        <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Google Maps</h1>
                         <p className="py-3 px-20">
                             Getting in touch with Oitech would involve reaching out to them
                             through one or more of their contact channels, such as their

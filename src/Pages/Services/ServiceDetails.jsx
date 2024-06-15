@@ -7,7 +7,7 @@ const ServiceDetails = () => {
     //console.log(id);
 
     return (
-        <div className="hero min-h-screen">
+        <div className="hero min-h-screen py-20">
             <div className="hero-content text-center">
                 <div className="px-20 py-12">
                     <div className="card shadow-2xl card-bordered border-primary">

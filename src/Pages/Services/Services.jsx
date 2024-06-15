@@ -19,10 +19,10 @@ const Services = () => {
             .then((data) => setMyservices(data));
     }, []);
     return (
-        <div className="hero py-12">
+        <div className="hero py-20">
             <div className="hero-content text-center">
-                <div className="">
-                    <h1 className="text-5xl font-bold">Services We Offer</h1>
+                <div className="pt-10">
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Services We Offer</h1>
                     <p className="py-6">
                         With Oitech you can create beautiful and elegant websites that suits
                         your business. Create charming and graceful websites that match your

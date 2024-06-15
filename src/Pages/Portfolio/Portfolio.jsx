@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
     return (
-        <div className="hero py-12">
+        <div className="hero py-20">
             <div className="hero-content text-center">
-                <div className="">
-                    <h1 className="text-5xl font-bold">Awesome Portfolio</h1>
+                <div className="pt-10">
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Awesome Portfolio</h1>
                     <p className="py-6">
                         Oitech harmonious design and super clean looks will make your
                         website look beautiful and elegant. It makes your creation look
@@ -33,17 +33,15 @@ const Portfolio = () => {
                                 </p>
                                 <div className="card-actions grid grid-rows-2 grid-flow-col">
                                     <div className="flex justify-center gap-4">
-                                        <Link to={"https://medicare-cf743.web.app/"}>
-                                            <button className="btn btn-outline btn-success gap-2">
-                                                <FaChrome size={"2em"}></FaChrome>
-                                                Live
-                                            </button>
+                                        <Link className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md" to={"https://medicare-cf743.web.app/"}>
+                                            <FaChrome size={"2em"}></FaChrome>
+                                            Live
                                         </Link>
-                                        <button className="btn btn-outline btn-success gap-2">
+                                        <button className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md">
                                             <FaGithub size={"2em"}></FaGithub>
                                             Frontend
                                         </button>
-                                        <button className="btn btn-outline btn-success gap-2">
+                                        <button className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md">
                                             <FaGithub size={"2em"}></FaGithub>
                                             Backend
                                         </button>
@@ -112,15 +110,15 @@ const Portfolio = () => {
                                 </p>
                                 <div className="card-actions grid grid-rows-2 grid-flow-col">
                                     <div className="flex justify-center gap-4">
-                                        <button className="btn btn-outline btn-success gap-2">
+                                        <button className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md">
                                             <FaChrome size={"2em"}></FaChrome>
                                             Live
                                         </button>
-                                        <button className="btn btn-outline btn-success gap-2">
+                                        <button className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md">
                                             <FaGithub size={"2em"}></FaGithub>
                                             Frontend
                                         </button>
-                                        <button className="btn btn-outline btn-success gap-2">
+                                        <button className="btn btn-outline btn-success gap-2 btn-xs sm:btn-sm md:btn-md lg:btn-md">
                                             <FaGithub size={"2em"}></FaGithub>
                                             Backend
                                         </button>

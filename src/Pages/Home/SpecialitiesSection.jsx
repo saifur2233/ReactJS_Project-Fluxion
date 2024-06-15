@@ -15,14 +15,14 @@ const SpecialitiesSection = () => {
         <div className="hero py-12">
             <div className="hero-content text-center">
                 <div className="">
-                    <h1 className="text-5xl font-bold">Oitech Specialities</h1>
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Oitech Specialities</h1>
                     <p className="py-6">
                         Oitech is popular for the below specialities that can make your
                         website look beautiful.
                     </p>
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                        <div className="card shadow-2xl">
-                            <div className="card-body items-center text-center">
+                        <div className="card shadow-2xl hover:scale-110">
+                            <div className="card-body items-center text-center" >
                                 <FaDesktop
                                     style={{
                                         color: "#09aff4",
@@ -35,7 +35,7 @@ const SpecialitiesSection = () => {
                                 <p>Provided with high resolution images.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaDiceD6
                                     style={{
@@ -49,7 +49,7 @@ const SpecialitiesSection = () => {
                                 <p>You can use color schemes as you need.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaGooglePlusG
                                     style={{
@@ -63,7 +63,7 @@ const SpecialitiesSection = () => {
                                 <p>You can change the fonts of the website.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaAlignJustify
                                     style={{
@@ -77,7 +77,7 @@ const SpecialitiesSection = () => {
                                 <p>Clean code which can be understood.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaMagic
                                     style={{
@@ -91,7 +91,7 @@ const SpecialitiesSection = () => {
                                 <p>Fully responsive and retina ready.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaCheckCircle
                                     style={{
@@ -105,7 +105,7 @@ const SpecialitiesSection = () => {
                                 <p>The template can be fully customizable with ease.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaClone
                                     style={{
@@ -119,7 +119,7 @@ const SpecialitiesSection = () => {
                                 <p>Template makes your website look beautiful.</p>
                             </div>
                         </div>
-                        <div className="card shadow-2xl">
+                        <div className="card shadow-2xl hover:scale-110">
                             <div className="card-body items-center text-center">
                                 <FaPhotoVideo
                                     style={{

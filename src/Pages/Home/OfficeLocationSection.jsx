@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const OfficeLocationSection = () => {
     return (
         <div>
-            <h1 className="text-5xl font-bold text-center">
+            <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black text-center">
                 Our Offices Around The World
             </h1>
             <div className="hero">

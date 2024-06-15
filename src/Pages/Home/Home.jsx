@@ -9,6 +9,7 @@ import ClientSection from './ClientSection';
 import FaqSection from './FaqSection';
 import QuestionSection from './QuestionSection';
 import OfficeLocationSection from './OfficeLocationSection';
+import TestimonialSection from './TestimonialSection';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <QuestionSection></QuestionSection>
             <TeamSection></TeamSection>
             <OfficeLocationSection></OfficeLocationSection>
+            <TestimonialSection></TestimonialSection>
         </div>
     );
 };
