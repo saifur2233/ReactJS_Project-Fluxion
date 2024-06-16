@@ -10,6 +10,7 @@ import FaqSection from './FaqSection';
 import QuestionSection from './QuestionSection';
 import OfficeLocationSection from './OfficeLocationSection';
 import TestimonialSection from './TestimonialSection';
+import TechnologySection from './TechnologySection';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <TeamSection></TeamSection>
             <OfficeLocationSection></OfficeLocationSection>
             <TestimonialSection></TestimonialSection>
+            <TechnologySection></TechnologySection>
         </div>
     );
 };
