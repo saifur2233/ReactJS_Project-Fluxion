@@ -5,7 +5,7 @@ const TestimonialSection = () => {
         <div className="hero">
             <div className="hero-content text-center">
                 <div className="">
-                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Testimonials</h1>
+                    <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Positive feedback from our users</h1>
 
                     <p className="py-6">Read trusted reviews from our customers</p>
 
