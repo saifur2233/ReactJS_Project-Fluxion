@@ -17,7 +17,7 @@ const TeamSection = () => {
                     <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://i.ibb.co/qg4mB48/member01.png" alt="Bonnie Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member01.png" alt="Bonnie Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -51,7 +51,7 @@ const TeamSection = () => {
                         </div>
                         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://i.ibb.co/VjBWpXq/member02.png" alt="Jese Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member02.png" alt="Jese Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -85,7 +85,7 @@ const TeamSection = () => {
                         </div>
                         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://i.ibb.co/BnzcY3z/member03.png" alt="Michael Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member03.png" alt="Michael Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -119,7 +119,7 @@ const TeamSection = () => {
                         </div>
                         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://i.ibb.co/Fsqdjs0/member04.png" alt="Sofia Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member04.png" alt="Sofia Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">

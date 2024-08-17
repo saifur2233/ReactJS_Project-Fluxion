@@ -5,7 +5,7 @@ const FaqSection = () => {
         <div className="hero py-12">
             <div className="hero-content flex-col lg:flex-row">
                 <img
-                    src="https://i.ibb.co/59qfG8f/faq-illustration.png"
+                    src="faq-illustration.png"
                     alt="faq-illustration"
                 />
                 <div>

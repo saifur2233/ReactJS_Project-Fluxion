@@ -8,7 +8,7 @@ const StatsSection = () => {
         <div
             className="hero"
             style={{
-                backgroundImage: `url("https://i.ibb.co/93VgFBz/pattern-bg-3.jpg")`,
+                backgroundImage: `url("pattern-bg-3.jpg")`,
             }}
         >
             <div className="hero-overlay bg-opacity-60"></div>

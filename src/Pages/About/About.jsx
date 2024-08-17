@@ -12,7 +12,7 @@ const About = () => {
             <div className="hero min-h-screen py-20">
                 <div className="hero-content flex-col py-10 lg:flex-row-reverse lg:px-16">
                     <img
-                        src="https://i.ibb.co/M7xDBRy/about.png"
+                        src="about.png"
                         className="sm:max-w-sm md:max-w-md rounded-lg"
                     />
                     <div>
@@ -90,7 +90,7 @@ const About = () => {
             <div className="hero pb-12">
                 <div className="hero-content flex-col lg:flex-row lg:px-16">
                     <img
-                        src="https://i.ibb.co/2g3mYfK/choose.png"
+                        src="choose.png"
                         alt="choose"
                         className="sm:max-w-sm md:max-w-md rounded-lg "
                     />

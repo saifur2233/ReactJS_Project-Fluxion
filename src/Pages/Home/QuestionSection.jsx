@@ -34,7 +34,7 @@ const QuestionSection = () => {
     return (
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row-reverse lg:px-16">
-                <img src="https://i.ibb.co/zsGTNtW/3.png" className="sm:max-w-sm md:max-w-md rounded-lg" />
+                <img src="questions.png" className="sm:max-w-sm md:max-w-md rounded-lg" />
                 <div>
                     <p className="text-primary text-xl font-bold">Question</p>
                     <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Have Any Questions ?</h1>
