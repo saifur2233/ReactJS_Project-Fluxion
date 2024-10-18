@@ -17,7 +17,7 @@ const SpecialitiesSection = () => {
                 <div className="">
                     <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Oitech Specialities</h1>
                     <p className="py-6">
-                        Oitech is popular for the below specialities that can make your
+                        Smart IT is popular for the below specialities that can make your
                         website look beautiful.
                     </p>
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

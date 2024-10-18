@@ -31,8 +31,8 @@ const Navbar = () => {
             <nav className="bg-base-100 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap ">OiTech</span>
+                        <img src="/smart-it-logo.png" className="h-8" alt="Logo" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap font-serif">Smart IT Solutions</span>
                     </Link>
                     <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         {user?.uid ? (
@@ -67,7 +67,7 @@ const Navbar = () => {
                         <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                                 </svg>
                             </div>
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -111,6 +111,7 @@ const Navbar = () => {
                                     <div tabIndex={0} role="button" className="text-primary rounded">Extra</div>
                                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                                         <li><Link to="/team" className="text-primary rounded">Team</Link></li>
+                                        <li><Link to="/blogs" className="text-primary rounded">Blog</Link></li>
                                         <li><a>Career</a></li>
                                     </ul>
                                 </div>

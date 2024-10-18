@@ -51,9 +51,9 @@ const HeroSection = () => {
                     src="https://i.ibb.co/LPRFtp1/illustration-1.png"
                     className="sm:max-w-sm md:max-w-md rounded-lg hover:scale-110"
                 /> */}
-                <div class="grid grid-cols-2 gap-4 mt-8">
-                    <img class="w-full rounded-lg" src="office-long-2.png" alt="office content 1" />
-                    <img class="mt-4 w-full lg:mt-10 rounded-lg" src="office-long-1.png" alt="office content 2" />
+                <div className="grid grid-cols-2 gap-4 mt-8">
+                    <img className="w-full rounded-lg" src="office-long-2.png" alt="office content 1" />
+                    <img className="mt-4 w-full lg:mt-10 rounded-lg" src="office-long-1.png" alt="office content 2" />
                 </div>
                 <div>
                     <p className="font-bold text-primary">IT SOLUTIONS</p>

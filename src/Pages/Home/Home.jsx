@@ -20,12 +20,12 @@ const Home = () => {
             <SpecialitiesSection></SpecialitiesSection>
             <CompareServiceSection></CompareServiceSection>
             <StatsSection></StatsSection>
-            <ClientSection></ClientSection>
+            {/* <ClientSection></ClientSection> */}
             <FaqSection></FaqSection>
             <QuestionSection></QuestionSection>
             <TeamSection></TeamSection>
             <OfficeLocationSection></OfficeLocationSection>
-            <TestimonialSection></TestimonialSection>
+            {/* <TestimonialSection></TestimonialSection> */}
             <TechnologySection></TechnologySection>
         </div>
     );

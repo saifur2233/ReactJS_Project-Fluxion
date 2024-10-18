@@ -16,6 +16,7 @@ import MyProfile from "../Pages/Dashboard/MyProfile";
 import AllMessage from "../Pages/Dashboard/AllMessage";
 import AddService from "../Pages/Dashboard/AddService";
 import AllServices from "../Pages/Dashboard/AllServices";
+import Blogs from "../Pages/Blogs/Blogs";
 
 
 export const routes = createBrowserRouter([
@@ -50,6 +51,10 @@ export const routes = createBrowserRouter([
             {
                 path: "/team",
                 element: <Team></Team>,
+            },
+            {
+                path: "/blogs",
+                element: <Blogs></Blogs>,
             },
             {
                 path: "/contact",

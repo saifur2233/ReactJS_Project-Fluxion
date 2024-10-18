@@ -10,13 +10,15 @@ const OfficeLocationSection = () => {
             </h1>
             <div className="hero">
                 <div className="hero-content text-center">
-                    <div className="p-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="p-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                         <div className="card card-bordered border-t-4 rounded-b-lg border-primary">
                             <div className="card-body">
                                 <h2 className="card-title text-primary items-start font-bold text-2xl">
                                     New Zealand
                                 </h2>
-                                <p className="text-lg text-start pb-2">Auckland, New Zealand</p>
+                                <hr className="border border-5 border-primary"></hr>
+                                <p className="text-lg text-start pb-2">456 ellerslie panmure highway
+                                    Auckland 1060, New Zealand</p>
                                 <div className="flex gap-6">
                                     <FaMailBulk
                                         style={{
@@ -49,11 +51,12 @@ const OfficeLocationSection = () => {
                         </div>
                         <div className="card card-bordered border-t-4 rounded-b-lg border-primary">
                             <div className="card-body">
-                                <h2 className="card-title text-primary items-start font-bold text-2xl">
+                                <h2 className="card-title text-primary items-start font-bold text-2xl border-bottom">
                                     Bangladesh
                                 </h2>
+                                <hr className="border border-5 border-primary"></hr>
                                 <p className="text-lg text-start pb-2">
-                                    Road 12, Dhanmonddi, Dhaka, Bangladesh 3505
+                                    House: 89/1, Sukrabad, Dhanmonddi, Dhaka, Bangladesh 3505
                                 </p>
                                 <div className="flex gap-6">
                                     <FaMailBulk
@@ -66,7 +69,7 @@ const OfficeLocationSection = () => {
                                     ></FaMailBulk>
                                     <div className="text-start">
                                         <p className="font-bold text-primary">Email:</p>
-                                        <p>oitech@gmail.com</p>
+                                        <p>contact.smartitsolutions.nz@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6">
@@ -85,7 +88,7 @@ const OfficeLocationSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-bordered border-t-4 rounded-b-lg border-primary">
+                        {/* <div className="card card-bordered border-t-4 rounded-b-lg border-primary">
                             <div className="card-body">
                                 <h2 className="card-title text-primary items-start font-bold text-2xl">
                                     Bangladesh
@@ -122,7 +125,7 @@ const OfficeLocationSection = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

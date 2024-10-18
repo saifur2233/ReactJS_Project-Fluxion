@@ -6,9 +6,7 @@ const TestimonialSection = () => {
             <div className="hero-content text-center">
                 <div className="">
                     <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Positive feedback from our users</h1>
-
                     <p className="py-6">Read trusted reviews from our customers</p>
-
                     <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
                         <blockquote className="rounded-lg p-6 shadow-2xl sm:p-8 hover:bg-primary hover:text-white">
                             <div className="flex items-center gap-4">
@@ -72,17 +70,15 @@ const TestimonialSection = () => {
                                         </svg>
                                     </div>
 
-                                    <p className="mt-0.5 text-lg font-medium">Paul Starr</p>
+                                    <p className="mt-0.5 text-lg font-medium">Paul Starr, CEO of Affordable Life</p>
                                 </div>
                             </div>
                             <p className="mt-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                error officiis atque voluptates magnam!
+                                “Smart IT Solutions transformed our outdated website into a modern, user-friendly platform. Their team was responsive, professional, and truly understood our business needs. We couldn't be happier with the results!”
                             </p>
                         </blockquote>
 
-                        <blockquote className="rounded-lg p-6 shadow-2xl sm:p-8 hover:bg-primary">
+                        <blockquote className="rounded-lg p-6 shadow-2xl sm:p-8 hover:bg-primary hover:text-white">
                             <div className="flex items-center gap-4">
                                 <img
                                     alt=""
@@ -144,18 +140,16 @@ const TestimonialSection = () => {
                                         </svg>
                                     </div>
 
-                                    <p className="mt-0.5 text-lg font-medium">Paul Starr</p>
+                                    <p className="mt-0.5 text-lg font-medium">Sarah M., Marketing Director</p>
                                 </div>
                             </div>
 
                             <p className="mt-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                error officiis atque voluptates magnam!
+                                “Working with Smart IT Solutions has been a game-changer for our company. They provided a customized software solution that streamlined our operations and boosted our productivity. Highly recommend their services!”
                             </p>
                         </blockquote>
 
-                        <blockquote className="rounded-lg p-6 shadow-2xl sm:p-8 hover:bg-primary">
+                        <blockquote className="rounded-lg p-6 shadow-2xl sm:p-8 hover:bg-primary hover:text-white">
                             <div className="flex items-center gap-4">
                                 <img
                                     alt=""
@@ -217,14 +211,12 @@ const TestimonialSection = () => {
                                         </svg>
                                     </div>
 
-                                    <p className="mt-0.5 text-lg font-medium">Paul Starr</p>
+                                    <p className="mt-0.5 text-lg font-medium">Laura K., CEO</p>
                                 </div>
                             </div>
 
                             <p className="mt-4">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-                                consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-                                error officiis atque voluptates magnam!
+                                “The team at Smart IT Solutions delivered beyond our expectations. Their attention to detail and commitment to quality made our project a success. We’ve received countless compliments on our new system!”
                             </p>
                         </blockquote>
                     </div>

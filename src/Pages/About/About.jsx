@@ -5,6 +5,7 @@ import {
     FaMapMarkedAlt,
     FaRegComments,
 } from "react-icons/fa";
+import SDLCProcess from "./SDLCProcess";
 
 const About = () => {
     return (
@@ -37,8 +38,8 @@ const About = () => {
                                     className="p-2"
                                 ></FaMedal>
                                 <div className="text-start">
-                                    <p className="font-bold text-primary">First On Field</p>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p className="font-bold text-primary">Achievement</p>
+                                    <p>Client satisfaction is our Achievement</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -52,7 +53,7 @@ const About = () => {
                                 ></FaRunning>
                                 <div className="text-start">
                                     <p className="font-bold text-primary">Easy To Reach</p>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p>Dedicated support engineers.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -66,7 +67,7 @@ const About = () => {
                                 ></FaMapMarkedAlt>
                                 <div className="text-start">
                                     <p className="font-bold text-primary">Worldwide Services</p>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p>Provides worldwide remote services.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -80,7 +81,7 @@ const About = () => {
                                 ></FaRegComments>
                                 <div className="text-start">
                                     <p className="font-bold text-primary">24/7 Support</p>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p>Diligent support team available 24/7.</p>
                                 </div>
                             </div>
                         </div>
@@ -90,24 +91,22 @@ const About = () => {
             <div className="hero pb-12">
                 <div className="hero-content flex-col lg:flex-row lg:px-16">
                     <img
-                        src="choose.png"
+                        src="image-4.jpg"
                         alt="choose"
                         className="sm:max-w-sm md:max-w-md rounded-lg "
                     />
                     <div className="px-6">
-                        <p className="font-bold text-primary">ABOUT</p>
+                        <p className="font-bold text-primary">BUSINESS THRIVE</p>
                         <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black ">
                             WE ARE BUILDING SOFTWARE TO HELP
                         </h1>
                         <p className="py-6 pr-10 text-justify">
-                            We are a company boutique for digital transformation and software
-                            development that offers state-of - the-art engineering solutions,
-                            helping businesses and business customers untangle complicated
-                            problems.
+                            At Smart IT Solutions, we are building software to help businesses thrive. Our tailored solutions empower companies to streamline processes, enhance productivity, and achieve their goals with innovative and reliable technology.
                         </p>
                     </div>
                 </div>
             </div>
+            <SDLCProcess></SDLCProcess>
         </>
     );
 };

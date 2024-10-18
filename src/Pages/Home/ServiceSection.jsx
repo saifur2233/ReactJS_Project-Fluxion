@@ -29,8 +29,8 @@ const ServiceSection = () => {
                         <p className="font-bold text-primary">SERVICES</p>
                         <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Services We Offer</h1>
                         <p className="py-6 w-3/4">
-                            With Oitech you can create beautiful and elegant websites that
-                            suits your business. Also, Oitech makes it possible to design
+                            With Smart IT, you can create beautiful and elegant websites that
+                            suits your business. Also, Smart IT Solutions makes it possible to design
                             attractive and refined websites that fit your company's identity
                             and purpose.
                         </p>
@@ -49,7 +49,7 @@ const ServiceSection = () => {
                         <h2 className="card-title text-2xl font-bold">Web Development</h2>
                         <p className="text-justify">
                             Create charming and graceful websites that match your business
-                            with Oitech's assistance.
+                            with Smart IT's assistance.
                         </p>
                         <div className="card-actions justify-start">
                             <button className="btn btn-link hover:text-white">
@@ -63,7 +63,7 @@ const ServiceSection = () => {
                         <FaMobileAlt size={"2em"}></FaMobileAlt>
                         <h2 className="card-title text-2xl font-bold">Apps Development</h2>
                         <p className="text-justify">
-                            With Oitech, you can build exquisite and responsive app that
+                            With Smart IT, you can build exquisite and responsive app that
                             reflect your business's style and messaging.
                         </p>
                         <div className="card-actions justify-start">
@@ -78,7 +78,7 @@ const ServiceSection = () => {
                         <FaDesktop size={"2em"}></FaDesktop>
                         <h2 className="card-title text-2xl font-bold">IT Consulting</h2>
                         <p className="text-justify">
-                            Oitech offers IT consulting services to help businesses make
+                            Smart IT offers IT consulting services to help businesses make
                             informed decisions about their technology infrastructure and
                             strategy.
                         </p>
@@ -97,7 +97,7 @@ const ServiceSection = () => {
                             Software Maintenance
                         </h2>
                         <p className="text-justify">
-                            Oitech offers software maintenance services to ensure that your
+                            Smart IT offers software maintenance services to ensure that your
                             software is up-to-date and functioning properly.
                         </p>
                         <div className="card-actions justify-start">
@@ -112,7 +112,7 @@ const ServiceSection = () => {
                         <FaPager size={"2em"}></FaPager>
                         <h2 className="card-title text-2xl font-bold">Digital Marketing</h2>
                         <p className="text-justify">
-                            Oitech offers digital marketing services to help businesses
+                            Smart IT offers digital marketing services to help businesses
                             promote their brand and reach their target audience through
                             various online channels.
                         </p>
@@ -128,7 +128,7 @@ const ServiceSection = () => {
                         <FaSearchengin size={"2em"}></FaSearchengin>
                         <h2 className="card-title text-2xl font-bold">Data Analysis</h2>
                         <p className="text-justify">
-                            Oitech offers data analysis services to help businesses make sense
+                            Smart IT offers data analysis services to help businesses make sense
                             of their data, uncover insights, and make data-driven decisions.
                         </p>
                         <div className="card-actions justify-start">
