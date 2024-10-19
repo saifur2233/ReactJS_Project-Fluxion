@@ -91,8 +91,8 @@ const Portfolio = () => {
                         <div className="card shadow-2xl">
                             <figure className="px-10 pt-10">
                                 <img
-                                    src="https://private-user-images.githubusercontent.com/85455377/373857865-c225edb1-2a9a-4d8a-af1c-04a934836a92.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgxMTc0MjksIm5iZiI6MTcyODExNzEyOSwicGF0aCI6Ii84NTQ1NTM3Ny8zNzM4NTc4NjUtYzIyNWVkYjEtMmE5YS00ZDhhLWFmMWMtMDRhOTM0ODM2YTkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA1VDA4MzIwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE0NWQ4MDQ5YzA1NWRkNTljODZmODg2OGM3OGRkNjgwNjllZWRhMjNjMDg3NGEyYTkyYmJjZDAxYTczNTIzNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.b-6ldil-IzW6re2R7C1yYEmS2pet-yTmXM2fhQKK-0g"
-                                    alt="portfolio1"
+                                    src="pizza-lover.png"
+                                    alt="portfolio2"
                                     className="rounded-xl"
                                 />
                             </figure>
@@ -466,7 +466,7 @@ const Portfolio = () => {
                         <div className="card shadow-2xl">
                             <figure className="px-10 pt-10">
                                 <img
-                                    src="https://private-user-images.githubusercontent.com/85455377/373736337-70393c16-052b-4cc6-b89f-28934e098480.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgwNjE3MzcsIm5iZiI6MTcyODA2MTQzNywicGF0aCI6Ii84NTQ1NTM3Ny8zNzM3MzYzMzctNzAzOTNjMTYtMDUyYi00Y2M2LWI4OWYtMjg5MzRlMDk4NDgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA0VDE3MDM1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwNDhhNGUxOTU3MTI1MmE1MTQyOGYwMDkwNWUzMmFkZTk0MTFhZDI0YzlkM2QzODAxMTk4ODExYTI3YzQyZGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XdnygbilkAyDhIKHR83oxR28UJ07_zwfW5r999Cif7E"
+                                    src="hey-tech.png"
                                     alt="portfolio1"
                                     className="rounded-xl"
                                 />
