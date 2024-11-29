@@ -15,7 +15,7 @@ const TeamSection = () => {
                         Our team of talented professionals who helped in growing business.
                     </p>
                     <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div className="items-center bg-gray-50 rounded-lg shadow-2xl border-b-4 rounded-b-lg border-primary sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member01.png" alt="Bonnie Avatar" />
                             </a>
@@ -49,7 +49,7 @@ const TeamSection = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div className="items-center bg-gray-50 rounded-lg shadow-2xl border-b-4 rounded-b-lg border-primary sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member02.png" alt="Jese Avatar" />
                             </a>
@@ -85,7 +85,7 @@ const TeamSection = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div className="items-center bg-gray-50 rounded-lg shadow-2xl border-b-4 rounded-b-lg border-primary sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member03.png" alt="Michael Avatar" />
                             </a>
@@ -121,7 +121,7 @@ const TeamSection = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                        <div className="items-center bg-gray-50 rounded-lg shadow-2xl border-b-4 rounded-b-lg border-primary sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="member04.png" alt="Sofia Avatar" />
                             </a>

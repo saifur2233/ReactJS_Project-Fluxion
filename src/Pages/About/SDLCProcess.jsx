@@ -9,7 +9,7 @@ const SDLCProcess = () => {
                     <p className="py-6">
                         With Smart IT Solutions, you can streamline every phase of the Software Development Lifecycle (SDLC). From planning and development to testing and deployment, we ensure your software projects are delivered efficiently and aligned with your business goals.
                     </p>
-                    <ul className="timeline timeline-vertical ">
+                    <ul className="timeline timeline-vertical rounded-lg shadow-2xl py-5">
                         <li>
                             <div className="timeline-start timeline-box shadow-xl border border-t-4 rounded-b-lg border-primary">
                                 <div className="card bg-base-100 w-96 ">

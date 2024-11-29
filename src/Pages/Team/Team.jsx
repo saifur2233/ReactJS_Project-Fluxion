@@ -14,7 +14,7 @@ const Team = () => {
                             technologies in the industry.
                         </p>
                         <div className="p-12 flex justify-center">
-                            <a className="flex flex-col items-center bg-white border border-primary rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <a className="flex flex-col items-center bg-white border rounded-lg shadow-2xl border-b-4 rounded-b-lg border-primary md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                                 <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="https://i.ibb.co/GPc93Tr/team1.png" alt="CEO Pic" />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Shaira Priyanka</h5>

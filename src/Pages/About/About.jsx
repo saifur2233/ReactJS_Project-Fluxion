@@ -6,10 +6,12 @@ import {
     FaRegComments,
 } from "react-icons/fa";
 import SDLCProcess from "./SDLCProcess";
+import Partner from "./Partner";
 
 const About = () => {
     return (
         <>
+            <Partner></Partner>
             <div className="hero min-h-screen py-20">
                 <div className="hero-content flex-col py-10 lg:flex-row-reverse lg:px-16">
                     <img
